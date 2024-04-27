@@ -3,7 +3,7 @@ from sys import stderr
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
-PORT = 8080
+PORT = 8000
 
 app = Flask(__name__)
 CORS(app)
@@ -95,4 +95,4 @@ def reload():
 
 
 if __name__ == '__main__':
-    app.run(port=PORT)
+    app.run(host='0.0.0.0', port=PORT)
