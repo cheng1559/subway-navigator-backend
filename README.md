@@ -21,7 +21,7 @@
 2. 克隆该仓库到本地：
 
     ```
-    git clone https://github.com/cheng1559/subway-navigator-backend.git && cd./subway-navigator-backend
+    git clone https://github.com/cheng1559/subway-navigator-backend.git && cd ./subway-navigator-backend
     ```
 
 3. 安装依赖项：
